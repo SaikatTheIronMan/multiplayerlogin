@@ -1,8 +1,12 @@
 var canvas , bgImage;
-var gameState = 0;
+var gameState = 0; 
+
+
 var playerCount ;
 var database;
 var form,player,game;
+
+
 function setup(){
     canvas=createCanvas(400,400);
     database = firebase.database();
@@ -10,6 +14,10 @@ function setup(){
     game.getState();
     game.start();
 }
+
+
+
+
 function draw(){
 
 }
